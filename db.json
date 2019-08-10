@@ -1,0 +1,40 @@
+{
+  "restaurant": [
+    {
+      "saucerName": "T-Bone",
+      "saucerPrice": "300",
+      "category": "slices",
+      "id": 2
+    },
+    {
+      "saucerName": "Pancake",
+      "saucerPrice": "120",
+      "category": "dessert",
+      "id": 3
+    },
+    {
+      "saucerName": "Waffle",
+      "saucerPrice": "20",
+      "category": "dessert",
+      "id": 6
+    },
+    {
+      "saucerName": "Ice Cream",
+      "saucerPrice": "20",
+      "category": "dessert",
+      "id": 7
+    },
+    {
+      "saucerPrice": "8",
+      "saucerName": "Bacon",
+      "category": "slices",
+      "id": 8
+    },
+    {
+      "saucerName": "Beer",
+      "saucerPrice": "4",
+      "category": "drink",
+      "id": 9
+    }
+  ]
+}
