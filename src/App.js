@@ -7,7 +7,6 @@ import {
 import AddProduct from './components/AddProduct';
 import Products from './components/Products';
 import EditProduct from './components/EditProduct';
-import Product from './components/Product';
 import Header from './components/Header';
 import axios from 'axios';
 
@@ -22,7 +21,6 @@ function App() {
         const fetchAPI = async () => {
           await axios.get('http://localhost:4000/restaurant')
                   .then(res => {
-                    console.log(res.data);
                     setProducts(res.data);
                   })
                   .catch(err => {
@@ -60,7 +58,6 @@ function App() {
                 )
               }}
             />
-            <Route exact path="/products/:id" component={Product} />
             <Route
               exact path="/products/edit/:id"
               render={(props)=> {

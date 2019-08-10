@@ -73,9 +73,8 @@ function EditProduct(props){
 
     return (
         <div className="col-md-8 mx-auto">
-            <h1 className="text-center">Edit Product Component</h1>
+            <h1 className="text-center">Edit Saucer</h1>
             <div className="col-md-8 mx-auto ">
-                <h1 className="text-center">Edit Product</h1>
 
                 {error ? <Error message="All fields are required" /> : null}
 

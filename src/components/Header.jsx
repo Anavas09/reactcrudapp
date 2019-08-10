@@ -10,7 +10,7 @@ function Header(){
                 </NavLink>
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/products-list">Products</NavLink>
+                        <NavLink className="nav-link" to="/products-list">Saucers</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/products/new">Add</NavLink>

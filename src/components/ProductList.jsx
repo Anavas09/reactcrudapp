@@ -9,7 +9,6 @@ function ProductList({product, setRefreshProducts}){
     const { id, category, saucerName, saucerPrice } = product;
 
     const deleteProduct = (id) => {
-        console.log(id);
 
         Swal.fire({
             title: 'Are you sure?',

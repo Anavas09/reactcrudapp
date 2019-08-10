@@ -5,7 +5,7 @@ import ProductList from './ProductList';
 function Products({products, setRefreshProducts}){
     return (
         <Fragment>
-            <h1 className="text-center">Products Component</h1>
+            <h2 className="text-center">Saucer List</h2>
             <ul className="list-group-mt-5">
                 {products.map(product => {
                     const { id } = product;

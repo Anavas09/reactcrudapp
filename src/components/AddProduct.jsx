@@ -59,9 +59,8 @@ function AddProduct({history, setRefreshProducts}){
 
     return (
         <div className="col-md-8 mx-auto">
-            <h1 className="text-center">Add Product Component</h1>
+            <h1 className="text-center">Add New Saucer</h1>
             <div className="col-md-8 mx-auto ">
-                <h1 className="text-center">Add New Product</h1>
 
                 {error ? <Error message="All fields are required" /> : null}
 

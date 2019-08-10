@@ -2,7 +2,7 @@
   "restaurant": [
     {
       "saucerName": "T-Bone",
-      "saucerPrice": "300",
+      "saucerPrice": "280",
       "category": "slices",
       "id": 2
     },
@@ -23,12 +23,6 @@
       "saucerPrice": "20",
       "category": "dessert",
       "id": 7
-    },
-    {
-      "saucerPrice": "8",
-      "saucerName": "Bacon",
-      "category": "slices",
-      "id": 8
     },
     {
       "saucerName": "Beer",
